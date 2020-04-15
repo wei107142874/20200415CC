@@ -1,0 +1,12 @@
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\ElasticSearchDemo.exe.config
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\ElasticSearchDemo.exe
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\ElasticSearchDemo.pdb
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\Newtonsoft.Json.dll
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\PlainElastic.Net.dll
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\Newtonsoft.Json.xml
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\PlainElastic.Net.pdb
+E:\学习目录\CC\ElasticSearchDemo\bin\Debug\PlainElastic.Net.xml
+E:\学习目录\CC\ElasticSearchDemo\obj\Debug\ElasticSearchDemo.csprojAssemblyReference.cache
+E:\学习目录\CC\ElasticSearchDemo\obj\Debug\ElasticSearchDemo.csproj.CopyComplete
+E:\学习目录\CC\ElasticSearchDemo\obj\Debug\ElasticSearchDemo.exe
+E:\学习目录\CC\ElasticSearchDemo\obj\Debug\ElasticSearchDemo.pdb

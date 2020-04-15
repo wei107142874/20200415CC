@@ -1,0 +1,10 @@
+E:\学习目录\CC\图片文字识别\obj\Debug\图片文字识别.csprojAssemblyReference.cache
+E:\学习目录\CC\图片文字识别\bin\Debug\图片文字识别.exe.config
+E:\学习目录\CC\图片文字识别\bin\Debug\图片文字识别.exe
+E:\学习目录\CC\图片文字识别\bin\Debug\图片文字识别.pdb
+E:\学习目录\CC\图片文字识别\bin\Debug\AipSdk.dll
+E:\学习目录\CC\图片文字识别\bin\Debug\Newtonsoft.Json.dll
+E:\学习目录\CC\图片文字识别\bin\Debug\Newtonsoft.Json.xml
+E:\学习目录\CC\图片文字识别\obj\Debug\图片文字识别.csproj.CopyComplete
+E:\学习目录\CC\图片文字识别\obj\Debug\图片文字识别.exe
+E:\学习目录\CC\图片文字识别\obj\Debug\图片文字识别.pdb

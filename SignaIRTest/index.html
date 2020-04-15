@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="/signalr/hubs" type="text/javascript"></script>
+</head>
+<body>
+    用户名:<input type="text" id="uName" value="" />
+    <ul id="mUl"></ul>
+    <input type="button" id="btn1" value="登录" />
+    <input type="button" id="btn2" value="获取返回值" />
+    <script>
+        //接收服务器推送的消息（要在hub.start之前执行）
+        $.connection.myHub.client.onMessage = function (msg) {
+            console.log(msg);
+            for (var m in msg) {
+
+            }
+        }
+
+        $.connection.myHub.client.onException = function (msg) {
+            alert(msg);
+        }
+
+        //固定写法
+        $.connection.hub.start().done(function () {
+            console.log("连接成功")
+        }).fail(function () {
+            alert("连接失败")
+        })
+
+        $("#btn1").click(function () {
+            //给服务器发送消息
+            $.connection.myHub.server.login($("#uName").val())
+        })
+
+         $("#btn2").click(function () {
+             //给服务器发送消息
+             $.connection.myHub.server.getObj().done(function (data) {
+                 alert(data.age + ":" + data.name);
+             }).fail(function () {
+                 alert("调用失败");
+             })
+        })
+    </script>
+</body>
+</html>

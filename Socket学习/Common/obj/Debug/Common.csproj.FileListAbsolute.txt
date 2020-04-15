@@ -1,0 +1,4 @@
+E:\学习目录\新建文件夹\Socket学习\Common\bin\Debug\Common.dll
+E:\学习目录\新建文件夹\Socket学习\Common\bin\Debug\Common.pdb
+E:\学习目录\新建文件夹\Socket学习\Common\obj\Debug\Common.dll
+E:\学习目录\新建文件夹\Socket学习\Common\obj\Debug\Common.pdb

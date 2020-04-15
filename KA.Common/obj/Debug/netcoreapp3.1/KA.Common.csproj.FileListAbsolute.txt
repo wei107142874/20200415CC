@@ -1,0 +1,8 @@
+E:\学习目录\CC\KA.Common\bin\Debug\netcoreapp3.1\KA.Common.deps.json
+E:\学习目录\CC\KA.Common\bin\Debug\netcoreapp3.1\KA.Common.dll
+E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.AssemblyInfoInputs.cache
+E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.AssemblyInfo.cs
+E:\学习目录\CC\KA.Common\bin\Debug\netcoreapp3.1\KA.Common.pdb
+E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.dll
+E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.pdb
+E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.csprojAssemblyReference.cache

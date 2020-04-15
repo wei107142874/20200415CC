@@ -1,0 +1,9 @@
+E:\学习目录\新建文件夹\Socket学习\Server\bin\Debug\Server.exe.config
+E:\学习目录\新建文件夹\Socket学习\Server\bin\Debug\Server.exe
+E:\学习目录\新建文件夹\Socket学习\Server\bin\Debug\Server.pdb
+E:\学习目录\新建文件夹\Socket学习\Server\bin\Debug\Common.dll
+E:\学习目录\新建文件夹\Socket学习\Server\bin\Debug\Common.pdb
+E:\学习目录\新建文件夹\Socket学习\Server\obj\Debug\Server.csprojAssemblyReference.cache
+E:\学习目录\新建文件夹\Socket学习\Server\obj\Debug\Server.csproj.CopyComplete
+E:\学习目录\新建文件夹\Socket学习\Server\obj\Debug\Server.exe
+E:\学习目录\新建文件夹\Socket学习\Server\obj\Debug\Server.pdb

@@ -1,0 +1,13 @@
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI系列.exe.config
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI系列.exe
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI系列.pdb
+E:\学习目录\CC\NPOI系列\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI.dll
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI.OOXML.dll
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI.OpenXml4Net.dll
+E:\学习目录\CC\NPOI系列\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\学习目录\CC\NPOI系列\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\学习目录\CC\NPOI系列\obj\Debug\NPOI系列.csprojAssemblyReference.cache
+E:\学习目录\CC\NPOI系列\obj\Debug\NPOI系列.csproj.CopyComplete
+E:\学习目录\CC\NPOI系列\obj\Debug\NPOI系列.exe
+E:\学习目录\CC\NPOI系列\obj\Debug\NPOI系列.pdb

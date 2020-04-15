@@ -1,0 +1,11 @@
+E:\学习目录\CC\特性\bin\Debug\netcoreapp3.1\特性.exe
+E:\学习目录\CC\特性\bin\Debug\netcoreapp3.1\特性.deps.json
+E:\学习目录\CC\特性\bin\Debug\netcoreapp3.1\特性.runtimeconfig.json
+E:\学习目录\CC\特性\bin\Debug\netcoreapp3.1\特性.runtimeconfig.dev.json
+E:\学习目录\CC\特性\bin\Debug\netcoreapp3.1\特性.dll
+E:\学习目录\CC\特性\bin\Debug\netcoreapp3.1\特性.pdb
+E:\学习目录\CC\特性\obj\Debug\netcoreapp3.1\特性.csprojAssemblyReference.cache
+E:\学习目录\CC\特性\obj\Debug\netcoreapp3.1\特性.AssemblyInfoInputs.cache
+E:\学习目录\CC\特性\obj\Debug\netcoreapp3.1\特性.AssemblyInfo.cs
+E:\学习目录\CC\特性\obj\Debug\netcoreapp3.1\特性.dll
+E:\学习目录\CC\特性\obj\Debug\netcoreapp3.1\特性.pdb

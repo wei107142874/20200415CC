@@ -1,0 +1,15 @@
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Manager.deps.json
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Manager.dll
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Manager.pdb
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.IRepository.dll
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.IRepository.pdb
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.csprojAssemblyReference.cache
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.AssemblyInfoInputs.cache
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.AssemblyInfo.cs
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.csproj.CopyComplete
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.dll
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.pdb
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Common.dll
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Repository.dll
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Repository.pdb
+E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Common.pdb
