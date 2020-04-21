@@ -1,0 +1,17 @@
+E:\学习目录\CC\防坑手册\bin\Debug\防坑手册.exe.config
+E:\学习目录\CC\防坑手册\bin\Debug\防坑手册.exe
+E:\学习目录\CC\防坑手册\bin\Debug\防坑手册.pdb
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.csprojAssemblyReference.cache
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.Properties.Resources.resources
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.csproj.GenerateResource.cache
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.exe
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.pdb
+E:\学习目录\CC\防坑手册\bin\Debug\东方微银科技 - 公司主页.mhtml
+E:\学习目录\CC\防坑手册\bin\Debug\重庆南华中天信息技术有限公司 - 公司主页.mhtml
+E:\学习目录\CC\防坑手册\bin\Debug\HtmlAgilityPack.dll
+E:\学习目录\CC\防坑手册\bin\Debug\HtmlAgilityPack.pdb
+E:\学习目录\CC\防坑手册\bin\Debug\HtmlAgilityPack.xml
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.Test.resources
+E:\学习目录\CC\防坑手册\obj\Debug\防坑手册.csproj.CopyComplete
+E:\学习目录\CC\防坑手册\bin\Debug\Newtonsoft.Json.dll
+E:\学习目录\CC\防坑手册\bin\Debug\Newtonsoft.Json.xml

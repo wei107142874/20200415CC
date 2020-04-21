@@ -11,7 +11,7 @@ namespace 特性
             person.Age = 123;
             person.Bz = "1232";
             person.Name = "张三";
-            Type type = person.GetType();
+            Type type = person.GetType(); 
             
             //获取对象的特性
             var mytests = (MyTestAttribute[])type.GetCustomAttributes(typeof(MyTestAttribute),false);

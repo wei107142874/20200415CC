@@ -4,7 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 using static TestConsole.XmlHelper;
@@ -13,88 +15,43 @@ namespace TestConsole
 {
     class Program
     {
+
+        private static int TaskMethod(string name, int seconds, CancellationToken token)
+        {
+            Console.WriteLine("Task {0} 运行在线程 {1} 上。是否是线程池线程: {2}",
+            name, Thread.CurrentThread.ManagedThreadId, Thread.CurrentThread.IsThreadPoolThread);
+            for (int i = 0; i < seconds; i++)
+            {
+                Thread.Sleep(1000);
+                if (token.IsCancellationRequested) return -1;
+            }
+            return 42 * seconds;
+        }
+
         static void Main(string[] args)
         {
-            string xmlFilePath = AppDomain.CurrentDomain.BaseDirectory + "1.xml";
 
-            XmlHelper xml = new XmlHelper(xmlFilePath);
-            Dictionary<string, string> pairs = new Dictionary<string, string>();
-            pairs["count1"] = "5";
-            pairs["count3"] = "8";
-            //xml.Insert(new InsertDto
-            //{
-            //    Name = "Name",
-            //    Text = "231",
-            //    Xpath = "User/Student",
-            //    AttrDic = pairs
-            //});
-
-            xml.Update(new UpdateDto
+            var cts = new CancellationTokenSource();
+            var longTask = new Task<int>(() => TaskMethod("Task 2", 10, cts.Token), cts.Token);
+            longTask.Start(); //启动任务
+            for (int i = 0; i < 5; i++)
             {
-                Text = "zz1",
-                HandleAttrOrText = "attr=count=1",
-                Xpath = "User/Student/Name",
-                AttrDic = pairs
-            });
+                Thread.Sleep(TimeSpan.FromSeconds(0.5));
+                Console.WriteLine(longTask.Status);
+            }
+            cts.Cancel();
+            for (int i = 0; i < 5; i++)
+            {
+                Thread.Sleep(TimeSpan.FromSeconds(0.5));
+                Console.WriteLine(longTask.Status);
+            }
 
-            //var xml = new System.Xml.XmlDocument();
-            //XmlDeclaration declaration = xml.CreateXmlDeclaration("1.0", "UTF-8", "");//xml文档的声明部分           
-            //xml.AppendChild(declaration);//添加至XmlDocument对象中
-            //XmlElement User = xml.CreateElement("User");//创建根节点User
-            //XmlNode Student = xml.CreateElement("Student");//创建子节点ID
-            //XmlElement ID = xml.CreateElement("ID");//创建子节点元素
-            //ID.InnerText = "123";
-            //User.AppendChild(Student);//子节点
-            //Student.AppendChild(ID);//子节点元素
-            //xml.AppendChild(User);//根目录User,有且只有一个
-            //xml.Save(xmlFilePath);
-
-            //插入元素
-            //var xml = new System.Xml.XmlDocument();
-            //xml.Load(xmlFilePath);
-            //XmlNode nodeparams = xml.SelectSingleNode("User/Student");//找根节点
-            //XmlElement Name = xml.CreateElement("Name");
-            //Name.InnerText = "猪猪侠";
-            //Name.SetAttribute("count", "1");
-            //nodeparams.AppendChild(Name); //New Node
-            //xml.Save(xmlFilePath);//修改完成后保存
-
-            //修改元素
-            //var xml = new System.Xml.XmlDocument();
-            //xml.Load(xmlFilePath);
-            //XmlNode nodeparams = xml.SelectSingleNode("User/Student/Name");//找根节点
-            //if (nodeparams != null)
-            //{
-            //    nodeparams.InnerText = "朱大哥";
-            //    xml.Save(xmlFilePath);//修改完成后保存
-            //    //XmlNode nodeparams2 = nodeparams.SelectSingleNode("Student");//子节点
-            //    //if (nodeparams2 != null)
-            //    //{
-            //    //    XmlNodeList nodelist = nodeparams2.ChildNodes;
-            //    //    if (nodelist != null)
-            //    //    {
-            //    //        XmlNode ID = nodelist[0];
-            //    //        ID.InnerText = "2221";
-            //    //        xml.Save(xmlFilePath);//修改完成后保存
-            //    //    }
-            //    //}
-            //}
-            //else
-            //{
-            //    Console.WriteLine("no element");
-            //}
-
-            //删除元素
-            //var xml = new System.Xml.XmlDocument();
-            //xml.Load(xmlFilePath);
-            //XmlNode nodeparams = xml.SelectSingleNode("User/Student");
-            //XmlNode Name = nodeparams.SelectSingleNode("Name");
-            //nodeparams.RemoveChild(Name); //New Node
-            //xml.Save(xmlFilePath);//修改完成后保存
-
+            Console.WriteLine("A task has been completed with result {0}.", longTask.Result);
             Console.WriteLine("ok");
             Console.ReadKey();
         }
+
+       
 
         public class MenuTreeViewModel
         {

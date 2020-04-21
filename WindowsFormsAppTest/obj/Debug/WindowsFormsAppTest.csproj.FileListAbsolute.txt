@@ -1,0 +1,12 @@
+E:\学习目录\CC\WindowsFormsAppTest\bin\Debug\WindowsFormsAppTest.exe.config
+E:\学习目录\CC\WindowsFormsAppTest\bin\Debug\WindowsFormsAppTest.exe
+E:\学习目录\CC\WindowsFormsAppTest\bin\Debug\WindowsFormsAppTest.pdb
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.Properties.Resources.resources
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.csproj.GenerateResource.cache
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.exe
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.pdb
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.Form1.resources
+E:\学习目录\CC\WindowsFormsAppTest\bin\Debug\Newtonsoft.Json.dll
+E:\学习目录\CC\WindowsFormsAppTest\bin\Debug\Newtonsoft.Json.xml
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.csproj.CopyComplete
+E:\学习目录\CC\WindowsFormsAppTest\obj\Debug\WindowsFormsAppTest.csprojAssemblyReference.cache

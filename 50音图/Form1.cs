@@ -18,7 +18,6 @@ namespace _50音图
         {
             InitializeComponent();
             InitData();
-            Control.CheckForIllegalCrossThreadCalls = false;
         }
 
         List<Yt> yts = new List<Yt>();
@@ -77,7 +76,7 @@ namespace _50音图
             {
                 while (lb)
                 {
-                    Console.WriteLine("调用btn_kz_Click....");
+                    Console.WriteLine("切换....");
                     btn_kz_Click(sender, e);
                     Thread.Sleep(Convert.ToInt32(tb_lbjg.Text));
                 }
@@ -95,7 +94,7 @@ namespace _50音图
             string[] radomRange = tb_random.Text.Split(',');
             int i = rd.Next(Convert.ToInt32(radomRange[0]), Convert.ToInt32(radomRange[1]));
             //同期练习大于20次则不在显示
-            if (yts[i].Count > 5) 
+            if (yts[i].Count > 5)
             {
                 btn_kz_Click(sender, e);
                 return;
@@ -116,10 +115,14 @@ namespace _50音图
                 return;
             }
             yts[i].Count++;
-            
-            nowTime = DateTime.Now;
-            lab_show.Text = nowTime.Value.Millisecond % 2 == 0 ? yt.Hiragana : yt.Katakana;
-            lab_cut.Text = yt.Count.ToString();
+
+            BeginInvoke(new Action(() =>
+            {
+
+                nowTime = DateTime.Now;
+                lab_show.Text = nowTime.Value.Millisecond % 2 == 0 ? yt.Hiragana : yt.Katakana;
+                lab_cut.Text = yt.Count.ToString();
+            }));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -194,7 +197,7 @@ namespace _50音图
         {
             string data = $"{yt.Pronunciation},{yt.Hiragana},{yt.Katakana},{yt.Know},{yt.KSource},{yt.HSource}{Environment.NewLine}";
             tb_zd.AppendText(data);
-            File.AppendAllText($"{acbUrl}/没记住的50音.txt", data);
+            //File.AppendAllText($"{acbUrl}/没记住的50音.txt", data);
             //foreach (var yt in zdyts.Distinct())
             //{
 
@@ -291,13 +294,16 @@ namespace _50音图
             if (sj == null)
             {
                 sj = new 随机生成();
+                sj.CenterScreen();
+                //sj.Location = this.Location;
+
+                sj.yts2 = hiraganas;
+                sj.yts1 = katakanas;
+                sj.SetData();
+                sj.Show();
+                sj = null;
             }
-            sj.CenterScreen();
-            //sj.Location = this.Location;
-            sj.Show();
-            sj.yts2 = hiraganas;
-            sj.yts1 = katakanas;
-            sj.SetData();
+           
         }
     }
     public class Yt
