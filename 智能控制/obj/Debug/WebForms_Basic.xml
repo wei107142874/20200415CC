@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+智能控制
+</name>
+</assembly>
+<members>
+<member name="T:智能控制.My.MyWebExtension">
+ <summary>
+ 用于定义 Web 项目的“我的命名空间”中可用属性的模块。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:智能控制.My.MyWebExtension.Computer">
+ <summary>
+ 返回有关主机算机的信息。
+ </summary>
+</member>
+<member name="P:智能控制.My.MyWebExtension.User">
+ <summary>
+ 返回当前 Web 用户的信息。
+ </summary>
+</member>
+<member name="P:智能控制.My.MyWebExtension.Request">
+ <summary>
+ 返回 Request 对象。
+ </summary>
+</member>
+<member name="P:智能控制.My.MyWebExtension.Response">
+ <summary>
+ 返回 Response 对象。
+ </summary>
+</member>
+<member name="P:智能控制.My.MyWebExtension.Log">
+ <summary>
+ 返回 Asp 日志对象。
+ </summary>
+</member>
+<member name="F:智能控制.SiteMaster._MainContent">
+<summary>
+MainContent 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:智能控制.Site_Mobile._Head1">
+<summary>
+Head1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:智能控制.Site_Mobile._HeadContent">
+<summary>
+HeadContent 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:智能控制.Site_Mobile._form1">
+<summary>
+form1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:智能控制.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:智能控制.Site_Mobile._MainContent">
+<summary>
+MainContent 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+<member name="F:智能控制.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 控件。
+</summary>
+<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+</members>
+</doc>

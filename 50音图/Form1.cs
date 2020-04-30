@@ -308,6 +308,7 @@ namespace _50音图
     }
     public class Yt
     {
+
         /// <summary>
         /// 平假名
         /// </summary>
@@ -357,6 +358,7 @@ namespace _50音图
         /// 认识？
         /// </summary>
         public bool? Know { get; set; }
+        
 
         ///// <summary>
         ///// 录音地址

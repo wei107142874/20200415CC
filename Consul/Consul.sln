@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MsgService", "MsgService\MsgService.csproj", "{970A789E-06DF-469D-8CAE-0B5CD0470107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "服务消费者1", "服务消费者1\服务消费者1.csproj", "{D00D11AE-64E7-4231-A771-8037115E7DEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970A789E-06DF-469D-8CAE-0B5CD0470107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970A789E-06DF-469D-8CAE-0B5CD0470107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970A789E-06DF-469D-8CAE-0B5CD0470107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970A789E-06DF-469D-8CAE-0B5CD0470107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00D11AE-64E7-4231-A771-8037115E7DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00D11AE-64E7-4231-A771-8037115E7DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00D11AE-64E7-4231-A771-8037115E7DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00D11AE-64E7-4231-A771-8037115E7DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77681BB5-E844-4CB2-863A-DF7254CC6520}
+	EndGlobalSection
+EndGlobal
