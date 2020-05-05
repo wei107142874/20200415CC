@@ -1,0 +1,13 @@
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\9frf.exe
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\9frf.deps.json
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\9frf.runtimeconfig.json
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\9frf.runtimeconfig.dev.json
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\9frf.dll
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\9frf.pdb
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\HtmlAgilityPack.dll
+E:\学习目录\CC\XDY\9frf\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+E:\学习目录\CC\XDY\9frf\obj\Debug\netcoreapp3.0\9frf.AssemblyInfoInputs.cache
+E:\学习目录\CC\XDY\9frf\obj\Debug\netcoreapp3.0\9frf.AssemblyInfo.cs
+E:\学习目录\CC\XDY\9frf\obj\Debug\netcoreapp3.0\9frf.csproj.CopyComplete
+E:\学习目录\CC\XDY\9frf\obj\Debug\netcoreapp3.0\9frf.dll
+E:\学习目录\CC\XDY\9frf\obj\Debug\netcoreapp3.0\9frf.pdb

@@ -1,0 +1,9 @@
+E:\学习目录\CC\XDY\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\学习目录\CC\XDY\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\学习目录\CC\XDY\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\学习目录\CC\XDY\ConsoleApp1\bin\Debug\HtmlAgilityPack.dll
+E:\学习目录\CC\XDY\ConsoleApp1\bin\Debug\HtmlAgilityPack.pdb
+E:\学习目录\CC\XDY\ConsoleApp1\bin\Debug\HtmlAgilityPack.xml
+E:\学习目录\CC\XDY\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+E:\学习目录\CC\XDY\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\学习目录\CC\XDY\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,0 +1,119 @@
+body{
+    background-color: #ffffff;
+}
+
+.content{
+    width: 1366px;
+    /* height: 100px; */
+    /* background: red; */
+    margin: 0 auto;
+}
+
+.content>div{
+    width: 80%;
+    margin:  0 auto;
+}
+.grjl{
+    
+    /* height: 100px; */
+    background: #F1F1F1;
+    
+    margin-top: 90px;
+
+}
+
+.tx{
+    float: left;
+    margin-right: 36px;
+}
+
+.grjl_nr{
+    margin: 0 0 0 60px;
+    padding-bottom: 50px;
+    padding-top: 48px;
+}
+
+.grjl_nr >h1{
+    font-size: 48px;
+    font-family: '微软雅黑';
+}
+
+.grjl_nr>p{
+    font-family: '宋体';
+    font-size: 23.65px;
+    font-weight: 600;
+    text-indent:50px;
+    letter-spacing: 2px;
+    line-height: 31px;
+    margin-top: 15px;
+}
+
+.title{
+    background: #4A4F5A;
+    color: #FFFFFF;
+    width: 240px;
+    height: 52px;
+    border-radius: 10px;
+    margin-left: 23px;
+    line-height: 52px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 25px;
+}
+.qwhy{
+    background: #FFFFFF;
+}
+.qwhy_nr{
+    text-align: center;
+    line-height: 25px;
+}
+.qwhy_nr>div{
+    display: inline-block;
+    width: 49%;
+}
+.gzjl{
+    /* background: red; */
+}
+
+.gzjl>.gsinfo,
+.jntc>.jntc_nr{
+    margin-left: 95px;
+    margin-bottom: 15px;
+}
+.gsmc{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.zyzn{
+    margin-top: 10px;
+    margin-left: 16px;
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+
+.jntc>.jntc_nr{
+    letter-spacing: 2px;
+    line-height: 26px;
+}
+.jntc>.jntc_nr>div{
+    margin-left: 16px;
+}
+
+.lxfs_nr svg{
+    width: 45px;
+    height: 45px;
+    vertical-align:middle;
+    margin-left: 95px;
+}
+.lxfs_nr{
+    /* text-align: center; */
+}
+.lxfs_nr > p{
+    display: inline-block;
+    width: 49%;
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "9frf": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
