@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Common.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Common\Common.csproj" />
   </ItemGroup>
 
