@@ -29,8 +29,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KA.Web", "KA.Web\KA.Web.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "特性", "特性\特性.csproj", "{DEC1A929-A3B8-4C3B-AC1E-78336B6AB0A2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "定时任务Quartz", "定时任务Quartz\定时任务Quartz.csproj", "{F08D78DB-73AF-4121-94AB-B44265228974}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "日语50音图练习", "日语50音图练习", "{E73B94DB-C372-4C4E-AE2E-2B3A4250FC70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "50音图", "50音图\50音图.csproj", "{FBB372D6-227F-406D-9C4A-06C70DAB9E38}"
@@ -50,6 +48,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "防坑手册", "防坑手册\防坑手册.csproj", "{DB2E19D8-1CA5-4BDB-A4C4-A6564A0F5AE9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "智能", "智能\智能.csproj", "{83D68329-70D1-4F39-BCDB-717CFC9B4288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{A91ED4B6-30E6-4EAF-91E4-4602319FB828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,10 +105,6 @@ Global
 		{DEC1A929-A3B8-4C3B-AC1E-78336B6AB0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEC1A929-A3B8-4C3B-AC1E-78336B6AB0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEC1A929-A3B8-4C3B-AC1E-78336B6AB0A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F08D78DB-73AF-4121-94AB-B44265228974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F08D78DB-73AF-4121-94AB-B44265228974}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F08D78DB-73AF-4121-94AB-B44265228974}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F08D78DB-73AF-4121-94AB-B44265228974}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBB372D6-227F-406D-9C4A-06C70DAB9E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FBB372D6-227F-406D-9C4A-06C70DAB9E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB372D6-227F-406D-9C4A-06C70DAB9E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -137,6 +133,10 @@ Global
 		{83D68329-70D1-4F39-BCDB-717CFC9B4288}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D68329-70D1-4F39-BCDB-717CFC9B4288}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D68329-70D1-4F39-BCDB-717CFC9B4288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91ED4B6-30E6-4EAF-91E4-4602319FB828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91ED4B6-30E6-4EAF-91E4-4602319FB828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91ED4B6-30E6-4EAF-91E4-4602319FB828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91ED4B6-30E6-4EAF-91E4-4602319FB828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
