@@ -1,0 +1,17 @@
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\图片集\微信图片_20200511115257.jpg
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\图片集\微信图片_20200511115330.jpg
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\图片集\微信图片_20200511115335.jpg
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\图片集\微信图片_20200511115341.jpg
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\通用文字识别.exe.config
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\通用文字识别.exe
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\通用文字识别.pdb
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\Newtonsoft.Json.dll
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\Newtonsoft.Json.xml
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.Form1.resources
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.Properties.Resources.resources
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.csproj.GenerateResource.cache
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.csproj.CopyComplete
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.exe
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.pdb
+E:\学习目录\CC\通用文字识别\通用文字识别\obj\Debug\通用文字识别.csprojAssemblyReference.cache
+E:\学习目录\CC\通用文字识别\通用文字识别\bin\Debug\图片集\Page0001.jpg

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vooDYcZF9YvxBOW77hRgH6ZDtjdPCVnHIrumwpMHyU5bkhkWj+DCkrJmUQUIYGfLTSKorENQ33JH+0l1wb0Hgw==",
+  "success": true,
+  "projectFilePath": "E:\\学习目录\\CC\\文件服务\\FileServ\\FileServ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wy\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

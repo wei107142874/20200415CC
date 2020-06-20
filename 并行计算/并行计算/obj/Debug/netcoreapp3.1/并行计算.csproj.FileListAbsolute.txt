@@ -1,0 +1,11 @@
+E:\学习目录\CC\并行计算\并行计算\bin\Debug\netcoreapp3.1\并行计算.exe
+E:\学习目录\CC\并行计算\并行计算\bin\Debug\netcoreapp3.1\并行计算.deps.json
+E:\学习目录\CC\并行计算\并行计算\bin\Debug\netcoreapp3.1\并行计算.runtimeconfig.json
+E:\学习目录\CC\并行计算\并行计算\bin\Debug\netcoreapp3.1\并行计算.runtimeconfig.dev.json
+E:\学习目录\CC\并行计算\并行计算\bin\Debug\netcoreapp3.1\并行计算.dll
+E:\学习目录\CC\并行计算\并行计算\bin\Debug\netcoreapp3.1\并行计算.pdb
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.csprojAssemblyReference.cache
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.AssemblyInfoInputs.cache
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.AssemblyInfo.cs
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.dll
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.pdb

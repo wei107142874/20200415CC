@@ -1,3 +1,6 @@
+html{
+    font-size: 16px;
+}
 body{
     background-color: #ffffff;
 }
@@ -14,61 +17,56 @@ body{
     margin:  0 auto;
 }
 .grjl{
-    
-    /* height: 100px; */
     background: #F1F1F1;
-    
-    margin-top: 90px;
-
 }
 
 .tx{
     float: left;
-    margin-right: 36px;
+    margin-right: 2.2rem;
 }
 
 .grjl_nr{
-    margin: 0 0 0 60px;
-    padding-bottom: 50px;
-    padding-top: 48px;
+    margin: 0 0 0 3.75rem;
+    padding-bottom: 3.125rem;
+    padding-top: 3rem;
 }
 
 .grjl_nr >h1{
-    font-size: 48px;
+    font-size: 3rem;
     font-family: '微软雅黑';
 }
 
 .grjl_nr>p{
     font-family: '宋体';
-    font-size: 23.65px;
+    font-size: 1.47rem;
     font-weight: 600;
-    text-indent:50px;
+    text-indent:3.125rem;
     letter-spacing: 2px;
-    line-height: 31px;
-    margin-top: 15px;
+    line-height: 2rem;
+    margin-top: 1rem;
 }
 
 .title{
     background: #4A4F5A;
     color: #FFFFFF;
-    width: 240px;
-    height: 52px;
+    width: 15rem;
+    height: 3.25rem;
     border-radius: 10px;
-    margin-left: 23px;
-    line-height: 52px;
+    margin-left: 1.43rem;
+    line-height: 3.25rem;
     text-align: center;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.38rem;
     letter-spacing: 2px;
     position: relative;
-    bottom: 25px;
+    bottom: 1.56rem;
 }
 .qwhy{
     background: #FFFFFF;
 }
 .qwhy_nr{
     text-align: center;
-    line-height: 25px;
+    line-height: 1.56rem;
 }
 .qwhy_nr>div{
     display: inline-block;
@@ -80,35 +78,35 @@ body{
 
 .gzjl>.gsinfo,
 .jntc>.jntc_nr{
-    margin-left: 95px;
-    margin-bottom: 15px;
+    margin-left: 5.94rem;
+    margin-bottom: 1rem;
 }
 .gsmc{
     font-weight: 600;
     font-size: 18px;
-    margin-right: 10px;
+    margin-right: 0.63rem;
 }
 
 .zyzn{
-    margin-top: 10px;
-    margin-left: 16px;
+    margin-top: 0.63rem;
+    margin-left: 1rem;
     letter-spacing: 2px;
-    line-height: 26px;
+    line-height: 1.63rem;
 }
 
 .jntc>.jntc_nr{
     letter-spacing: 2px;
-    line-height: 26px;
+    line-height: 1.63rem;
 }
 .jntc>.jntc_nr>div{
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .lxfs_nr svg{
-    width: 45px;
-    height: 45px;
+    width: 2.8rem;
+    height: 2.8rem;
     vertical-align:middle;
-    margin-left: 95px;
+    margin-left: 5.94rem;
 }
 .lxfs_nr{
     /* text-align: center; */
