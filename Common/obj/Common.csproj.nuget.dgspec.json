@@ -50,6 +50,18 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -63,6 +75,10 @@
             "Quartz": {
               "target": "Package",
               "version": "[3.0.7, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             },
             "Serilog": {
               "target": "Package",

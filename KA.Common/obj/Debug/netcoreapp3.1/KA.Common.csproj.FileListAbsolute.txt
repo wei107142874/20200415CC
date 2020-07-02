@@ -6,3 +6,4 @@ E:\学习目录\CC\KA.Common\bin\Debug\netcoreapp3.1\KA.Common.pdb
 E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.dll
 E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.pdb
 E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.csprojAssemblyReference.cache
+E:\学习目录\CC\KA.Common\obj\Debug\netcoreapp3.1\KA.Common.csproj.CoreCompileInputs.cache

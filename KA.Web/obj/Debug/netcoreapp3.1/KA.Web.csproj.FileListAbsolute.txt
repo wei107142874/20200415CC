@@ -74,3 +74,5 @@ E:\学习目录\CC\KA.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.A
 E:\学习目录\CC\KA.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 E:\学习目录\CC\KA.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 E:\学习目录\CC\KA.Web\bin\Debug\netcoreapp3.1\libman.json
+E:\学习目录\CC\KA.Web\obj\Debug\netcoreapp3.1\KA.Web.csproj.CoreCompileInputs.cache
+E:\学习目录\CC\KA.Web\obj\Debug\netcoreapp3.1\KA.Web.genruntimeconfig.cache

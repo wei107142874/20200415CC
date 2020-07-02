@@ -9,3 +9,5 @@ E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计�
 E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.AssemblyInfo.cs
 E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.dll
 E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.pdb
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.csproj.CoreCompileInputs.cache
+E:\学习目录\CC\并行计算\并行计算\obj\Debug\netcoreapp3.1\并行计算.genruntimeconfig.cache

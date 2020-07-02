@@ -13,3 +13,4 @@ E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Common.dll
 E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Repository.dll
 E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Repository.pdb
 E:\学习目录\CC\KA.Manager\bin\Debug\netcoreapp3.1\KA.Common.pdb
+E:\学习目录\CC\KA.Manager\obj\Debug\netcoreapp3.1\KA.Manager.csproj.CoreCompileInputs.cache

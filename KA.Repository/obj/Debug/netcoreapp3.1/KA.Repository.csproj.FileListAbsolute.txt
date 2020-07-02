@@ -11,3 +11,4 @@ E:\学习目录\CC\KA.Repository\bin\Debug\netcoreapp3.1\KA.IRepository.pdb
 E:\学习目录\CC\KA.Repository\obj\Debug\netcoreapp3.1\KA.Repository.csproj.CopyComplete
 E:\学习目录\CC\KA.Repository\obj\Debug\netcoreapp3.1\KA.Repository.dll
 E:\学习目录\CC\KA.Repository\obj\Debug\netcoreapp3.1\KA.Repository.pdb
+E:\学习目录\CC\KA.Repository\obj\Debug\netcoreapp3.1\KA.Repository.csproj.CoreCompileInputs.cache
