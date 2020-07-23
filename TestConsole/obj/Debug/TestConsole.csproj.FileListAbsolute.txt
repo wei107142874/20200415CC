@@ -1,9 +1,0 @@
-E:\学习目录\CC\TestConsole\bin\Debug\TestConsole.exe.config
-E:\学习目录\CC\TestConsole\bin\Debug\TestConsole.exe
-E:\学习目录\CC\TestConsole\bin\Debug\TestConsole.pdb
-E:\学习目录\CC\TestConsole\obj\Debug\TestConsole.csprojAssemblyReference.cache
-E:\学习目录\CC\TestConsole\obj\Debug\TestConsole.exe
-E:\学习目录\CC\TestConsole\obj\Debug\TestConsole.pdb
-E:\学习目录\CC\TestConsole\bin\Debug\Newtonsoft.Json.dll
-E:\学习目录\CC\TestConsole\bin\Debug\Newtonsoft.Json.xml
-E:\学习目录\CC\TestConsole\obj\Debug\TestConsole.csproj.CopyComplete

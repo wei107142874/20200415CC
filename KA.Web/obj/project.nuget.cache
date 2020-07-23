@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TYcmDv3gz7/amYpHYgNFMxMVzd66u06iPftNkhEv2FJIFK2CPRFMOJJITjm1lK3pXnh4qOzuWkhzMby6S6rqkw==",
+  "dgSpecHash": "CozFPdcN8q3Yx9143sfvN+hijA4j17H7+Gyv/v1mDsJkp2WdrDvNWOlB+ljPrbqgjA/qKyZ87z1GFyyGolOCZA==",
   "success": true,
-  "projectFilePath": "E:\\学习目录\\CC\\KA.Web\\KA.Web.csproj",
+  "projectFilePath": "D:\\个人目录\\学习目录\\CC\\KA.Web\\KA.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wy\\.nuget\\packages\\google.protobuf\\3.5.1\\google.protobuf.3.5.1.nupkg.sha512",
     "C:\\Users\\wy\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4rlwRVHQbDCtixVYR3hoB7t9yvlGJmfyJLbp5fRVeimAgo4Em5ac7/HUM8VISjtwavtaad0s4wkAsV/1P1AH4A==",
+  "dgSpecHash": "4BBBWjY1Ule4k+/78tUvOg4QUq1m3d8pkBpv9hxcFiulcHCZW77QH22evPsXdqFbg+EVd2TrJIhzNu6z75mfVA==",
   "success": true,
-  "projectFilePath": "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
+  "projectFilePath": "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wy\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
     "C:\\Users\\wy\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",

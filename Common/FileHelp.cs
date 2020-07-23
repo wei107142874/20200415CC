@@ -112,5 +112,16 @@ namespace Common
             toFile.Close();
             return true;
         }
+
+        /// <summary>
+        /// 获取指定目录下的文件
+        /// </summary>
+        /// <param name="dir"></param>
+        /// <returns></returns>
+        public static string[] GetFilesByDirectory(string dir,string searchPattern="*.md")
+        {
+            DirectoryInfo directoryInfo = new DirectoryInfo(dir);
+           return Directory.GetFiles(dir, searchPattern, SearchOption.AllDirectories);
+        }
     }
 }

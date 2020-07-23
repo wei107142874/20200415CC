@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E6Gq3xrBnZ+HIhURafl5kema5Z98s60xdZ8dSwbOfBxXnxRT5YMWEFxKbxFQnhXlaphwKbkLgLAPjOlDTHlBBQ==",
+  "dgSpecHash": "klphQiW4Wt+4i1EpLcaMaV4aCeREkW4ri6UVrIdWD2jHx9syoKLgzJGLruxGCtljgUjYAh7z7+zuDuB0fbVF4Q==",
   "success": true,
-  "projectFilePath": "E:\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj",
+  "projectFilePath": "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wy\\.nuget\\packages\\google.protobuf\\3.5.1\\google.protobuf.3.5.1.nupkg.sha512",
     "C:\\Users\\wy\\.nuget\\packages\\microsoft.data.sqlite\\2.2.4\\microsoft.data.sqlite.2.2.4.nupkg.sha512",

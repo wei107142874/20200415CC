@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj": {}
+    "D:\\个人目录\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj": {}
   },
   "projects": {
-    "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {
+    "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
+        "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
         "projectName": "KA.Common",
-        "projectPath": "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
+        "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
         "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-        "outputPath": "E:\\学习目录\\CC\\KA.Common\\obj\\",
+        "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
+    "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
+        "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
         "projectName": "KA.IRepository",
-        "projectPath": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
+        "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
         "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-        "outputPath": "E:\\学习目录\\CC\\KA.IRepository\\obj\\",
+        "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "E:\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj": {
+    "D:\\个人目录\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj",
+        "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj",
         "projectName": "KA.Manager",
-        "projectPath": "E:\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj",
+        "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj",
         "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-        "outputPath": "E:\\学习目录\\CC\\KA.Manager\\obj\\",
+        "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.Manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,11 +151,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
-                "projectPath": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj"
+              "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
+                "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj"
               },
-              "E:\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj": {
-                "projectPath": "E:\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj"
+              "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj": {
+                "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj"
               }
             }
           }
@@ -187,14 +187,14 @@
         }
       }
     },
-    "E:\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj": {
+    "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj",
+        "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj",
         "projectName": "KA.Repository",
-        "projectPath": "E:\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj",
+        "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj",
         "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-        "outputPath": "E:\\学习目录\\CC\\KA.Repository\\obj\\",
+        "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -210,11 +210,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {
-                "projectPath": "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj"
+              "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {
+                "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj"
               },
-              "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
-                "projectPath": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj"
+              "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
+                "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj"
               }
             }
           }

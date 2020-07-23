@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2F0K1ZC6FJSw3KBAwva3QC2UaFRiZjj/DZ4HyV+CwVjHwRYBhoemN2b/ArxvxDZXUVI3TEBYZNYzkGg0Iscffw==",
+  "dgSpecHash": "iOQ48/zMxsnhjm241Wb6e3ZfR6XMFQV5cc1tEAoJI8MNOqk6fs/f5/EHQUuUGpkwB6eSJ01RaFfwVUAREDEs4g==",
   "success": true,
-  "projectFilePath": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
+  "projectFilePath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wy\\.nuget\\packages\\google.protobuf\\3.5.1\\google.protobuf.3.5.1.nupkg.sha512",
     "C:\\Users\\wy\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

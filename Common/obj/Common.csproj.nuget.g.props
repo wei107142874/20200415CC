@@ -12,4 +12,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgCommonMark_NET Condition=" '$(PkgCommonMark_NET)' == '' ">C:\Users\wy\.nuget\packages\commonmark.net\0.15.1</PkgCommonMark_NET>
+  </PropertyGroup>
 </Project>

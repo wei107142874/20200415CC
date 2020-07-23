@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {}
+    "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {}
   },
   "projects": {
-    "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {
+    "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
+        "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
         "projectName": "KA.Common",
-        "projectPath": "E:\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
+        "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Common\\KA.Common.csproj",
         "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-        "outputPath": "E:\\学习目录\\CC\\KA.Common\\obj\\",
+        "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",

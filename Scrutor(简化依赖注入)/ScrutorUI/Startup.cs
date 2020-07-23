@@ -36,7 +36,7 @@ namespace ScrutorUI
                     .WithTransientLifetime() //注册的生命周期Transient
                 );
 
-            //防止重复注册
+            //防止重复注册，多个派生类时
             services.Scan(scan => scan
                 .FromAssemblyOf<Startup>()
                     .AddClasses(classes => classes.AssignableTo<IDuplicate>())

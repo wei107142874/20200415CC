@@ -6308,11 +6308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
+      "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
       "projectName": "KA.IRepository",
-      "projectPath": "E:\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
+      "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj",
       "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-      "outputPath": "E:\\学习目录\\CC\\KA.IRepository\\obj\\",
+      "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",
