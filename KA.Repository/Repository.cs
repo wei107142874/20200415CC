@@ -74,7 +74,7 @@ namespace KA.Repository
         public Repository(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
-            _dbBase = unitOfWork.GetDbClient();
+            _dbBase = _unitOfWork.GetDbClient();
         }
 
         public async Task<TEntity> QueryById(object objId)

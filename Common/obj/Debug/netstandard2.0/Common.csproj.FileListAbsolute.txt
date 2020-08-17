@@ -25,3 +25,12 @@ D:\个人目录\学习目录\CC\Common\obj\Debug\netstandard2.0\Common.dll
 D:\个人目录\学习目录\CC\Common\obj\Debug\netstandard2.0\Common.pdb
 D:\个人目录\学习目录\CC\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
 D:\个人目录\学习目录\CC\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\1_Study\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\1_Study\Common\bin\Debug\netstandard2.0\Common.dll
+D:\1_Study\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\1_Study\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\1_Study\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\1_Study\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\1_Study\Common\obj\Debug\netstandard2.0\Common.dll
+D:\1_Study\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\1_Study\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache

@@ -7652,19 +7652,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wy\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\个人目录\\学习目录\\CC\\KA.Web\\KA.Web.csproj",
+      "projectUniqueName": "D:\\1_Study\\KA.Web\\KA.Web.csproj",
       "projectName": "KA.Web",
-      "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Web\\KA.Web.csproj",
-      "packagesPath": "C:\\Users\\wy\\.nuget\\packages\\",
-      "outputPath": "D:\\个人目录\\学习目录\\CC\\KA.Web\\obj\\",
+      "projectPath": "D:\\1_Study\\KA.Web\\KA.Web.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\1_Study\\KA.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\wy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7677,14 +7677,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj": {
-              "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.IRepository\\KA.IRepository.csproj"
+            "D:\\1_Study\\KA.IRepository\\KA.IRepository.csproj": {
+              "projectPath": "D:\\1_Study\\KA.IRepository\\KA.IRepository.csproj"
             },
-            "D:\\个人目录\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj": {
-              "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Manager\\KA.Manager.csproj"
+            "D:\\1_Study\\KA.Manager\\KA.Manager.csproj": {
+              "projectPath": "D:\\1_Study\\KA.Manager\\KA.Manager.csproj"
             },
-            "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj": {
-              "projectPath": "D:\\个人目录\\学习目录\\CC\\KA.Repository\\KA.Repository.csproj"
+            "D:\\1_Study\\KA.Repository\\KA.Repository.csproj": {
+              "projectPath": "D:\\1_Study\\KA.Repository\\KA.Repository.csproj"
             }
           }
         }
@@ -7721,7 +7721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

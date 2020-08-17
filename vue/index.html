@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>插槽的基本使用</title>
+</head>
+
+<body>
+    <template id="cpn1">
+        <div>
+            <slot name="header" :list="list">
+                <ul>
+                    <li v-for="item in list">{{item}}</li>
+                </ul>
+            </slot>
+        </div>
+    </template>
+    <div id="app">
+        <cpn>
+            <template v-slot:header="data">
+                {{data.list.join('-')}}
+            </template>
+        </cpn>
+    </div>
+    <script src="./vue.js"></script>
+    <script>
+        const cpn = Vue.extend({
+            template: "#cpn1",
+            data() {
+                return {
+                    list: ['A', 'B', 'C', 'D']
+                }
+            }
+        })
+        const app = new Vue({
+            el: document.getElementById("app"),
+            components: {
+                cpn
+            }
+        })
+    </script>
+</body>
+
+</html>

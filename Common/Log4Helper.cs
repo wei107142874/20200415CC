@@ -252,6 +252,7 @@ namespace Common
         {
             GetLogger(source).Error(message, exception);
         }
+
         /// <summary>
         /// 失败信息
         /// </summary>
@@ -262,6 +263,7 @@ namespace Common
         {
             Fatal(source.GetType(), message, exception);
         }
+
         /// <summary>
         /// 失败信息
         /// </summary>

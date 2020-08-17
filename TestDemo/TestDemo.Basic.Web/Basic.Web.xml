@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Basic.Web</name>
+    </assembly>
+    <members>
+        <member name="T:TestDemo.Basic.Web.Controllers.ValuesController">
+            <summary>
+            测试控制器
+            </summary>
+        </member>
+        <member name="M:TestDemo.Basic.Web.Controllers.ValuesController.Get">
+            <summary>
+            获取
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestDemo.Basic.Web.Controllers.ValuesController.Get(System.Int32,System.Int32)">
+            <summary>
+            测试2
+            </summary>
+            <param name="id"></param>
+            <param name="lid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestDemo.Basic.Web.Controllers.ValuesController.Post(System.String)">
+            <summary>
+             测试3
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:TestDemo.Basic.Web.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+             测试4
+            </summary>
+            <param name="id">id</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:TestDemo.Basic.Web.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            测试5
+            </summary>
+            <param name="id">编号</param>
+        </member>
+        <member name="T:Basic.Web.Web.Extensions.ExceptionFilter">
+            <summary>
+            全局异常处理
+            </summary>
+        </member>
+        <member name="M:Basic.Web.Web.Extensions.ExceptionFilter.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Basic.Common.Log.ILoggerHelper)">
+            <summary>
+            
+            </summary>
+            <param name="env"></param>
+            <param name="loggerHelper"></param>
+        </member>
+        <member name="M:Basic.Web.Web.Extensions.ExceptionFilter.OnExceptionAsync(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Basic.Web.Web.Extensions.ExceptionFilter.WriteLog(System.String,System.Exception)">
+            <summary>
+            自定义返回格式
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Basic.Web.Web.Extensions.JsonErrorResponse.Message">
+            <summary>
+            生产环境的消息
+            </summary>
+        </member>
+        <member name="P:Basic.Web.Web.Extensions.JsonErrorResponse.DevelopmentMessage">
+            <summary>
+            开发环境的消息
+            </summary>
+        </member>
+        <member name="T:Basic.Web.Web.Extensions.HttpResult">
+            <summary>
+            网络数据返回格式
+            </summary>
+        </member>
+        <member name="P:Basic.Web.Web.Extensions.HttpResult.Success">
+            <summary>
+            程序只要无异常就为true
+            </summary>
+        </member>
+        <member name="P:Basic.Web.Web.Extensions.HttpResult.Msg">
+            <summary>
+            错误消息
+            </summary>
+        </member>
+        <member name="P:Basic.Web.Web.Extensions.HttpResult.Data">
+            <summary>
+            成功时返回的数据
+            </summary>
+        </member>
+        <member name="T:Basic.Web.Web.Extensions.SwaggerExtend">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Basic.Web.Web.Extensions.SwaggerExtend.AddSwaggerGenService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Swagger服务注册
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Basic.Web.Web.Extensions.SwaggerExtend.SwaggerGenConfigure(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            swagger使用
+            </summary>
+            <param name="app"></param>
+        </member>
+    </members>
+</doc>

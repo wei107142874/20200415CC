@@ -1,9 +1,12 @@
 ﻿using Common;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
+using Nest;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace ConsoleTest
 {
@@ -11,69 +14,85 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            //1,1,2,3,5,8,13,21,34
-            Random random = new Random();
-            
-            for (int i = 0; i < 100000; i++)
-            {
-                OrderDto dto = new OrderDto()
-                {
-                    DesktopNo = i.ToString(),
-                    UserName = "人物" + i.ToString(),
-                    OrderItems = new List<OrderItem> 
-                    {
-                         new OrderItem{ Name="商品"+random.Next(1,10000), Num=i, Price=i*random.Next(1,20)},
-                         new OrderItem{ Name="商品"+random.Next(1,10000), Num=i+1, Price=i*random.Next(1,20)},
-                         new OrderItem{ Name="商品"+random.Next(1,10000), Num=i+5, Price=i*random.Next(1,20)},
-                         new OrderItem{ Name="商品"+random.Next(1,10000), Num=i+2, Price=i*random.Next(1,20)},
-                         new OrderItem{ Name="商品"+random.Next(1,10000), Num=i+23, Price=i*random.Next(1,20)},
-                         new OrderItem{ Name="商品"+random.Next(1,10000), Num=i+6, Price=i*random.Next(1,20)},
-                    }
-                };
-                var id = HttpClientHelp.Post<OrderDto, object>("http://jk.qskc.iotube.cn/api/order", dto).Result;
-                Console.WriteLine(id);
-            }
-
+            Task.WaitAll(T1(), T1(), T1());
             Console.ReadKey();
         }
 
-        
 
-        
-
-        
+        private static Task<string> T1()
+        {
+            return Task.Factory.StartNew(() => {
+                string a = DateTime.Now.ToString();
+                throw new Exception(a);
+                Console.WriteLine(a);
+                return a;
+            });
+        }
     }
 
-    public class OrderDto
+    public class ArrayQueue
     {
-        /// <summary>
-        /// 桌号
-        /// </summary>
-        public string DesktopNo { get; set; }
+        public ArrayQueue(int maxSize)
+        {
+            MaxSize = maxSize;
+            Array = new int[MaxSize];
+        }
 
         /// <summary>
-        /// 用户
+        /// 入队
         /// </summary>
-        public string UserName { get; set; }
+        /// <param name="data"></param>
+        public void AddQueue(int data)
+        {
+            if (IsFull())
+            {
+                Console.WriteLine("队列满");
+                return;
+            }
+            Rear = Rear + 1;
+            Array[Rear] = data;
+        }
+
+        public void QuitQueue()
+        {
+            if(IsEmpty())
+            {
+                Console.WriteLine("队列空");
+                return;
+            }
+            Front = Front + 1;
+            Console.WriteLine(Array[Front]);
+        }
+
+        bool IsFull()
+        {
+            return MaxSize - 1 == Rear;
+        }
+
+        bool IsEmpty()
+        {
+            return Rear == Front;
+        }
 
         /// <summary>
-        /// 商品
+        /// 队列数组
         /// </summary>
-        public List<OrderItem> OrderItems { get; set; }
-    }
-
-    public class OrderItem
-    {
-        public string Name { get; set; }
+        public int[] Array { get; set; }
 
         /// <summary>
-        /// 单家
+        /// 前端(队首)
         /// </summary>
-        public decimal Price { get; set; }
+        public int Front { get; set; } = -1;
 
         /// <summary>
-        /// 数量
+        /// 后端(队尾)
         /// </summary>
-        public int Num { get; set; }
+        public int Rear { get; set; } = -1;
+
+        /// <summary>
+        /// 队列最大长度
+        /// </summary>
+        public int MaxSize { get; set; }
+
     }
 }

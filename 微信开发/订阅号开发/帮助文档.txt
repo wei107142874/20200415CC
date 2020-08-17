@@ -1,0 +1,5 @@
+﻿1.成为开发者
+申请好订阅号之后，添加服务器配置
+	服务器地址(URL):http://k3.weiyong.iotube.cn/wechatcheck
+	令牌(Token):随便写一个
+
